@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html data-theme="dark" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Turf</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .owl-item {
+        display: flex;
+        justify-content: center;
+      }
+
+      .owl-item > div {
+        margin: 0;
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+          items: 1,
+          loop: true,
+          margin: 0,
+          center: true,
+          autoplay: true,
+          autoplayTimeout: 6000000,
+          autoplayHoverPause: true,
+        });
+      });
+      function scrollToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+      }
+    </script>
+  </head>
+
+  <body class="bg-black min-h-screen text-white relative">
+    <header class="lg:container mx-auto px-4 py-1">
+      <div class="flex justify-between items-center w-full">
+        <a href="" class="bg-blend-multiply">
+          <img class="max-w-[170px]" src="./logo.png" alt="one turf" />
+        </a>
+        <nav class="flex justify-start items-center gap-6">
+          <a href="#about">
+            <p class="text-white text-md hover:underline underline-offset-2">
+              About
+            </p>
+          </a>
+          <a href="#mission">
+            <p class="text-white text-md hover:underline underline-offset-2">
+              Our Mission
+            </p>
+          </a>
+          <a href="#why_hemp?">
+            <p class="text-white text-md hover:underline underline-offset-2">
+              why hemp?
+            </p>
+          </a>
+          <a href="#research">
+            <p class="text-white text-md hover:underline underline-offset-2">
+              Research
+            </p>
+          </a>
+          <a href="#contact">
+            <p class="text-white text-md hover:underline underline-offset-2">
+              Contact us
+            </p>
+          </a>
+          <!-- Other menu items -->
+        </nav>
+      </div>
+    </header>
+
+    <main class="lg:container mx-auto px-4">
+      <section>
+        <div
+          id="default-carousel"
+          class="relative w-full"
+          data-carousel="slide"
+        >
+          <div class="owl-carousel owl-theme mt-4">
+            <div class="bg-blue-100 h-[500px] w-full">Your Content</div>
+            <div class="bg-blue-100 h-[500px] w-full">Your Content</div>
+            <div class="bg-blue-100 h-[500px] w-full">Your Content</div>
+            <div class="bg-blue-100 h-[500px] w-full">Your Content</div>
+            <div class="bg-blue-100 h-[500px] w-full">Your Content</div>
+            <div class="bg-blue-100 h-[500px] w-full">Your Content</div>
+            <div class="bg-blue-100 h-[500px] w-full">Your Content</div>
+            <!-- Add more content items here -->
+          </div>
+        </div>
+      </section>
+      <section id="about" class="flex justify-center items-center gap-6 py-6">
+        <div class="w-[50%] flex justify-center items-center">
+          <img src="./3.jpg" alt="vision" class="max-w-[100%]" />
+        </div>
+        <div class="w-[40%]">
+          <h3 class="mb-4 text-4xl font-bold">
+            A Vision Unfolds: Leading the Evolution of Tissue Paper
+          </h3>
+          <p class="text-lg">
+            We dream of One Turf being more than just a brand – a symbol of
+            quality, luxury, and a commitment to eco-conscious practices. Our
+            vision is ambitious, inspiring a global shift towards sustainable
+            choices, starting with the products you use every day. It's not
+            merely a vision; it's a call to action, a call for individuals to be
+            a part of something bigger, to be a catalyst for positive change.
+          </p>
+        </div>
+      </section>
+      <section
+        id="mission"
+        class="flex justify-center items-center flex-row-reverse gap-6 py-6"
+      >
+        <div class="w-[50%] flex justify-center items-center">
+          <img src="./8.jpg" alt="vision" class="max-w-[100%]" />
+        </div>
+        <div class="w-[40%]">
+          <h3 class="mb-4 text-4xl font-bold">
+            Once Upon a Vision: The Idea that Started It All
+          </h3>
+          <p class="text-lg">
+            Our journey began with a simple yet groundbreaking idea – why not
+            harness the power of hemp to create tissue products? The spark
+            ignited when we realized the potential of this resilient plant to
+            redefine the tissue paper industry. Hemp, known for its durability
+            and minimal environmental impact, became our symbol of change. This
+            vision birthed One Turf, an embodiment of luxury and sustainability,
+            where innovation meets comfort.
+          </p>
+        </div>
+      </section>
+      <section class="flex justify-center items-center gap-6 py-6">
+        <div class="w-[50%] flex justify-center items-center">
+          <img src="./5.jpg" alt="vision" class="max-w-[100%]" />
+        </div>
+        <div class="w-[40%]">
+          <h3 class="mb-4 text-4xl font-bold">
+            Mission: More Than Tissues – a Movement for Change
+          </h3>
+          <p class="text-lg">
+            Our mission is clear: to provide you with top-quality tissue
+            products while minimizing our impact on the environment. Choosing
+            One Turf means making a conscious choice for a greener tomorrow.
+            It's not just about tissues; it's about reshaping the way we think
+            about our everyday essentials. Each tissue represents a tiny
+            contribution to a larger movement, a movement towards sustainable
+            living and environmental stewardship.
+            <br />
+            <br />
+            At One Turf, our mission transcends the conventional boundaries of
+            business. We are committed to revolutionizing the tissue industry by
+            crafting premium hemp-based products that not only redefine
+            eco-luxury but also contribute to a sustainable and greener future.
+            Our goals are anchored in ecological restructuring, with a vision to
+            mitigate deforestation caused by traditional paper production. By
+            leveraging the unique properties of hemp, we aim to set new
+            standards in the tissue industry, offering consumers an
+            environmentally conscious choice without compromising on quality.
+            One Turf envisions a positive impact on our planet, one hemp tissue
+            at a time, as we strive to inspire a global shift towards
+            sustainable living.
+          </p>
+        </div>
+      </section>
+      <section
+        id="research"
+        class="flex justify-center items-center flex-row-reverse gap-6 py-6"
+      >
+        <div class="w-[50%] flex justify-center items-center">
+          <img src="./2.jpg" alt="vision" class="max-w-[100%]" />
+        </div>
+        <div class="w-[40%]">
+          <h3 class="mb-4 text-4xl font-bold">
+            Our Commitment to Sustainability: Behind the Scenes
+          </h3>
+          <h5 class="mb-4 text-xl font-bold">
+            Reducing Deforestation: A Stand Against Environmental Degradation
+          </h5>
+          <p class="text-lg mb-4">
+            Discover how One Turf is actively reducing deforestation by choosing
+            hemp. Our responsible sourcing practices and innovative
+            manufacturing processes ensure a minimal environmental footprint. We
+            are not just advocating against deforestation; we are actively
+            providing a viable alternative. It's a commitment to the earth, a
+            stand against the degradation we've witnessed for too long.
+          </p>
+          <h5 class="mb-4 text-xl font-bold">
+            Environmental Responsibility: Transparency in Action
+          </h5>
+          <p class="text-lg">
+            Explore our commitment to environmental responsibility. From the
+            materials we choose to our sustainable production practices,
+            transparency and accountability are at the core of One Turf. We
+            believe that responsible choices begin with knowledge. It's about
+            more than just using hemp; it's about being transparent with our
+            customers about why and how we make every decision.
+          </p>
+        </div>
+      </section>
+      <section id="why_hemp?" class="py-6">
+        <h3 class="mb-4 text-4xl font-bold text-center pb-6">Why Hemp?</h3>
+        <div>
+          <img src="./1.jpg" alt="why hemp?" class="max-w-[30%] mx-auto pb-6" />
+        </div>
+        <div class="flex justify-start items-start gap-6">
+          <div class="flex flex-col justify-center items-center">
+            <h5 class="mb-4 text-xl font-semibold text-center underline">
+              Renewable Source
+            </h5>
+            <p class="text-lg text-center">
+              Hemp is a fast-growing plant that can be harvested in a shorter
+              time frame compared to trees, making it a more sustainable and
+              renewable resource.
+            </p>
+          </div>
+          <div class="flex flex-col justify-center items-center">
+            <h5 class="mb-4 text-xl font-semibold text-center underline">
+              Reduced Environmental Impact
+            </h5>
+            <p class="text-lg text-center">
+              Hemp cultivation requires less water, pesticides, and fertilizers
+              compared to traditional wood pulp, resulting in a lower
+              environmental footprint.
+            </p>
+          </div>
+          <div class="flex flex-col justify-center items-center">
+            <h5 class="mb-4 text-xl font-semibold text-center underline">
+              Carbon Sequestration
+            </h5>
+            <p class="text-lg text-center">
+              Hemp plants absorb more carbon dioxide during their growth,
+              contributing to carbon sequestration and mitigating climate
+              change.
+            </p>
+          </div>
+          <div class="flex flex-col justify-center items-center">
+            <h5 class="mb-4 text-xl font-semibold text-center underline">
+              Biodiversity Protection
+            </h5>
+            <p class="text-lg text-center">
+              Hemp cultivation promotes biodiversity by providing habitat and
+              support for various species without causing deforestation.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="fixed bottom-7 right-7">
+      <button
+        onclick="scrollToTop()"
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded-full"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M11.47 2.47a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06l-6.22-6.22V21a.75.75 0 0 1-1.5 0V4.81l-6.22 6.22a.75.75 0 1 1-1.06-1.06l7.5-7.5Z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </div>
+  </body>
+</html>
