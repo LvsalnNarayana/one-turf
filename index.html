@@ -55,7 +55,7 @@
   </head>
 
   <body class="bg-black min-h-screen text-white relative">
-    <header class="lg:container mx-auto px-4 py-1">
+    <header class="container max-w-[85%] mx-auto px-4 py-1">
       <div class="flex justify-between items-center w-full">
         <a href="" class="bg-blend-multiply">
           <img class="max-w-[170px]" src="./logo.png" alt="one turf" />
@@ -90,8 +90,7 @@
         </nav>
       </div>
     </header>
-
-    <main class="lg:container mx-auto px-4">
+    <main class="container max-w-[85%] mx-auto px-4">
       <section>
         <div
           id="default-carousel"
@@ -110,12 +109,18 @@
           </div>
         </div>
       </section>
-      <section id="about" class="flex justify-center items-center gap-6 py-6">
-        <div class="w-[50%] flex justify-center items-center">
-          <img src="./3.jpg" alt="vision" class="max-w-[100%]" />
-        </div>
-        <div class="w-[40%]">
-          <h3 class="mb-4 text-4xl font-bold">
+      <section id="about" class="flex justify-center items-stretch gap-6 py-10">
+        <div
+          class="w-[50%] flex justify-center items-center"
+          style="
+            background-image: url(./3.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          "
+        ></div>
+        <div class="w-[50%]">
+          <h3 class="mb-4 text-2xl font-bold">
             A Vision Unfolds: Leading the Evolution of Tissue Paper
           </h3>
           <p class="text-lg">
@@ -130,13 +135,19 @@
       </section>
       <section
         id="mission"
-        class="flex justify-center items-center flex-row-reverse gap-6 py-6"
+        class="flex justify-center items-stretch flex-row-reverse gap-6 py-10"
       >
-        <div class="w-[50%] flex justify-center items-center">
-          <img src="./8.jpg" alt="vision" class="max-w-[100%]" />
-        </div>
-        <div class="w-[40%]">
-          <h3 class="mb-4 text-4xl font-bold">
+        <div
+          class="w-[50%] flex justify-center items-center"
+          style="
+            background-image: url(./8.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          "
+        ></div>
+        <div class="w-[50%]">
+          <h3 class="mb-4 text-2xl font-bold">
             Once Upon a Vision: The Idea that Started It All
           </h3>
           <p class="text-lg">
@@ -150,12 +161,18 @@
           </p>
         </div>
       </section>
-      <section class="flex justify-center items-center gap-6 py-6">
-        <div class="w-[50%] flex justify-center items-center">
-          <img src="./5.jpg" alt="vision" class="max-w-[100%]" />
-        </div>
-        <div class="w-[40%]">
-          <h3 class="mb-4 text-4xl font-bold">
+      <section class="flex justify-center items-stretch gap-6 py-10">
+        <div
+          class="w-[50%] flex justify-center items-center"
+          style="
+            background-image: url(./5.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          "
+        ></div>
+        <div class="w-[50%]">
+          <h3 class="mb-4 text-2xl font-bold">
             Mission: More Than Tissues – a Movement for Change
           </h3>
           <p class="text-lg">
@@ -172,26 +189,24 @@
             business. We are committed to revolutionizing the tissue industry by
             crafting premium hemp-based products that not only redefine
             eco-luxury but also contribute to a sustainable and greener future.
-            Our goals are anchored in ecological restructuring, with a vision to
-            mitigate deforestation caused by traditional paper production. By
-            leveraging the unique properties of hemp, we aim to set new
-            standards in the tissue industry, offering consumers an
-            environmentally conscious choice without compromising on quality.
-            One Turf envisions a positive impact on our planet, one hemp tissue
-            at a time, as we strive to inspire a global shift towards
-            sustainable living.
           </p>
         </div>
       </section>
       <section
         id="research"
-        class="flex justify-center items-center flex-row-reverse gap-6 py-6"
+        class="flex justify-center items-stretch flex-row-reverse gap-6 py-10"
       >
-        <div class="w-[50%] flex justify-center items-center">
-          <img src="./2.jpg" alt="vision" class="max-w-[100%]" />
-        </div>
-        <div class="w-[40%]">
-          <h3 class="mb-4 text-4xl font-bold">
+        <div
+          class="w-[50%] flex justify-center items-center"
+          style="
+            background-image: url(./2.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          "
+        ></div>
+        <div class="w-[50%]">
+          <h3 class="mb-4 text-2xl font-bold">
             Our Commitment to Sustainability: Behind the Scenes
           </h3>
           <h5 class="mb-4 text-xl font-bold">
@@ -204,6 +219,16 @@
             are not just advocating against deforestation; we are actively
             providing a viable alternative. It's a commitment to the earth, a
             stand against the degradation we've witnessed for too long.
+          </p>
+          <p class="text-lg mb-4">
+            Our goals are anchored in ecological restructuring, with a vision to
+            mitigate deforestation caused by traditional paper production. By
+            leveraging the unique properties of hemp, we aim to set new
+            standards in the tissue industry, offering consumers an
+            environmentally conscious choice without compromising on quality.
+            One Turf envisions a positive impact on our planet, one hemp tissue
+            at a time, as we strive to inspire a global shift towards
+            sustainable living.
           </p>
           <h5 class="mb-4 text-xl font-bold">
             Environmental Responsibility: Transparency in Action
@@ -218,8 +243,8 @@
           </p>
         </div>
       </section>
-      <section id="why_hemp?" class="py-6">
-        <h3 class="mb-4 text-4xl font-bold text-center pb-6">Why Hemp?</h3>
+      <section id="why_hemp?" class="py-10">
+        <h3 class="mb-4 text-2xl font-bold text-center pb-10">Why Hemp?</h3>
         <div>
           <img src="./1.jpg" alt="why hemp?" class="max-w-[30%] mx-auto pb-6" />
         </div>
